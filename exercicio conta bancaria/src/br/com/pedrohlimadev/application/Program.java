@@ -16,9 +16,9 @@ public class Program {
         System.out.print("Enter account number: ");
         int number = sc.nextInt();
 
+        sc.nextLine();
         System.out.print("Enter the holder: ");
         String holder = sc.nextLine();
-        sc.nextLine();
 
         System.out.println();
 
