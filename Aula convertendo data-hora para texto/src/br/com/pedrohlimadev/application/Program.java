@@ -13,7 +13,6 @@ public class Program {
 
     public static void main(String[] args) {
 
-
         LocalDate d04 = LocalDate.parse("2022-09-05");
         LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
         Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
@@ -31,13 +30,8 @@ public class Program {
         System.out.println("d05 = " + d05.format(fmt2));
         System.out.println("d05 = " + d05.format(fmt4));
         
-        
         System.out.println("d06 = " + fmt3.format(d06));
         System.out.println("d06 = " + fmt5.format(d06));
-
-
-
-
 
     }
 }

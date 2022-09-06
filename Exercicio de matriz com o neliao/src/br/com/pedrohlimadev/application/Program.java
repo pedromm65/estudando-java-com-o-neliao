@@ -7,33 +7,24 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         
         int n = sc.nextInt();
+        int m = sc.nextInt();
 
-        int[][] mat = new int[n][n];
+        int[][] mat = new int[n][m];
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
+                System.out.println("Coluna: " + i);
+                System.out.println("Linha: " + j);
                 mat[i][j] = sc.nextInt();
             }
         }
-
-        System.out.println("Main diagonal: ");
-
-        for (int i = 0; i < n; i++) {
-            System.out.println(mat[i][i] + " ");
-        }
-        System.out.println();
-
-        int count = 0;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if(mat[i][j] < 0) {
-                    count++;
-                }
+        
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[i].length; j++) {
+                System.out.println(mat[i][j] + " ");
             }
         }
 
-        System.out.println("Negative numbers: " + count);
 
         sc.close();
     }
