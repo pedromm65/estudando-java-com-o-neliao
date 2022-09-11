@@ -2,7 +2,6 @@ package com.pedrohlimadev.entities;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Calendar;
 import java.util.List;
 
 import com.pedrohlimadev.entities.enums.WorkerLevel;
@@ -17,7 +16,7 @@ public class Worker {
 
     public Worker() {
     }
-
+    
     public Worker(String name, WorkerLevel level, Double baseSalary, Departament departament) {
         this.name = name;
         this.level = level;
