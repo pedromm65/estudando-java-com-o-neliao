@@ -61,7 +61,5 @@ public class Program {
 
         System.out.println(x.getBalance());
         System.out.println(y.getBalance());
-
-
     }
 }
