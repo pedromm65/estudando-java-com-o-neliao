@@ -17,7 +17,7 @@ public class Program {
         System.out.println("Months: ");
         int months = sc.nextInt();
 
-        InterestService is = new UsaInterestService();
+        InterestService is = new BrazilInterestService();
 
         double payment = is.payment(amount, months);
 
